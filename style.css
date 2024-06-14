@@ -24,6 +24,8 @@
 
 header {
     background-color: #F5F5F5;
+    position: sticky;
+    top: 0;
 }
 
 .header-wrap {
@@ -34,16 +36,18 @@ header {
 .logo {
     align-items: center;
 }
-.icon-facebook2{
-    font-size: 24px;
-    color: var(--main-color);
-}
-.icon-twitter{
+
+.icon-facebook2 {
     font-size: 24px;
     color: var(--main-color);
 }
 
-.icon-instagram{
+.icon-twitter {
+    font-size: 24px;
+    color: var(--main-color);
+}
+
+.icon-instagram {
     font-size: 24px;
     color: var(--main-color);
 }
@@ -131,6 +135,51 @@ a {
     background-color: var(--btn-color)
 }
 
+.modal {
+    align-items: center;
+   justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(193, 230, 199);
+   display: block;
+
+}
+
+.modal-element {
+    background-color: #fceeee;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    border-radius: 30px;
+}
+.close{
+    float: right;
+}
+.close:hover{
+    cursor: pointer;
+    background-color: rgb(241, 48, 5);
+    border-radius: 50px;
+}
+.modal-element>div>button{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #3989a9;
+    margin-bottom: 20px;
+}
+input{
+    width: 220px;
+    height: 40px;
+    border-radius: 50px;
+}
+input:hover{
+    background-color: #9abac4;
+}
 .btn {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -308,7 +357,8 @@ a {
     gap: 100px;
     margin-left: 40px;
 }
-.sec6-wraw>figure>h4{
+
+.sec6-wraw>figure>h4 {
     color: #60A2B8;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -316,7 +366,8 @@ a {
     line-height: 58px;
     text-align: center;
 }
-.sec6-wraw>figure>p{
+
+.sec6-wraw>figure>p {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -324,18 +375,22 @@ a {
     color: #F5F5F5;
     text-align: center;
 }
-.blk-remov{
+
+.blk-remov {
     margin-bottom: 45px;
 }
+
 /* =====sec7======= */
-.section7-wrap{
+.section7-wrap {
     margin-top: 120px;
 }
-.section7-wrap>img{
-    position:relative ;
+
+.section7-wrap>img {
+    position: relative;
     left: -160px;
 }
-.sec7>h3{
+
+.sec7>h3 {
     color: var(--title-color);
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -344,7 +399,8 @@ a {
     flex-wrap: nowrap;
     text-align: center;
 }
-.sec7>p{
+
+.sec7>p {
     margin-top: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -353,69 +409,79 @@ a {
     line-height: 25px;
     color: var(--text-color);
 }
-.sec7-figure{
+
+.sec7-figure {
     margin-top: 50px;
     flex-wrap: wrap;
     gap: 60px;
 }
+
 /* .sec7{
     padding-left: -150px;
 } */
-.sec7-figure>figure>p{
+.sec7-figure>figure>p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
-    color:var(--title-color);
+    color: var(--title-color);
     text-align: center;
 }
+
 /* ===========footer========= */
-footer{
+footer {
     margin-top: 180px;
 }
-footer>.container>h2{
+
+footer>.container>h2 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    color:var(--text-color);
+    color: var(--text-color);
     text-align: center;
 }
-.foot-element>img{
+
+.foot-element>img {
     margin-left: 50px;
 }
-.foot-element>h6{
+
+.foot-element>h6 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     width: 100px;
     line-height: 38px;
-    color:var(--text-color);
+    color: var(--text-color);
     text-align: center;
     margin-left: 50px;
 }
-.line{
+
+.line {
     justify-content: center;
     margin-top: 20px;
-    border:solid #404040 1px;
-   width: 100px;
-   margin-left: 50px;
+    border: solid #404040 1px;
+    width: 100px;
+    margin-left: 50px;
 }
-.foot-element>p{
+
+.foot-element>p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 18px;
     width: 200px;
     line-height: 38px;
-    color:var(--text-color);
+    color: var(--text-color);
     text-align: center;
 }
-.foot-element{
+
+.foot-element {
     width: 500px;
     align-items: center;
     justify-content: center;
 }
-.foot-wrap{
+
+.foot-wrap {
     margin-top: 50px;
     gap: 140px;
     justify-content: center;
