@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/2cb7211a0d/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/00e6ef39cd/UntitledProject/style.css">
 </head>
 
 <body>
@@ -47,7 +47,20 @@
                             Івано-Франківську - устриці, булоти, восьминоги, креветки та мідії, а також спеціально
                             підібрані сорти вин та шампанського.
                         </p>
-                        <div class="button"><a href="#" class="btn">Забронювати</a></div>
+                        <button onclick="document.getElementById('myModal').style.display='block'" class="button"><a
+                                href="#" class="btn">Забронювати</a></button>
+                        <div class="modal" id="myModal">
+                            <div class="modal-element">
+                                <span onclick="document.getElementById('myModal').style.display='none'"
+                                    class="close">&#215;</span>
+                                <div class="flex">
+                                    <p>більше інформаці тут<span>&rarr;</span></p>
+                                    <button><a
+                                            href="https://tipmymenu.com/ru/kyiv/restaurant/stare-misto/marenho">більше</a></button>
+                                </div>
+                                <input type="email" placeholder="залиште тут свої контакти">
+                            </div>
+                        </div>
                     </div>
                     <div class="photo">
                         <img src="./images/картинка_.png" alt="logo" width="full" height="530px">
@@ -87,10 +100,21 @@
                         <p>Преміальні витримані стейки
                             Ексклюзивні пропозиції: лобстери, устриці , гребінці , восьминоги …
                             Широка карта вин зі всього світу</p>
-                        <div class="sec3-btn"><a href="#">Дізнатись більше</a></div>
+                            <button onclick="document.getElementById('mymodal').style.display='block'" class="button"><a
+                                href="#" class="btn">Забронювати</a></button>
+                        <div class="modal" id="mymodal">
+                            <div class="modal-element">
+                                <span onclick="document.getElementById('mymodal').style.display='none'"
+                                    class="close">exit</span>
+                                <div class="flex">
+                                    <p>більше інформаці тут<span>&rarr;</span></p>
+                                    <button><a
+                                            href="https://tipmymenu.com/ru/kyiv/restaurant/stare-misto/marenho">більше</a></button>
+                                </div>
+                                <input type="email" placeholder="залиште тут свої контакти">
+                            </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="section4">
             <div class="container">
@@ -201,8 +225,8 @@
                                 <img src="./images/Ellipse 3.png" alt="logo">
                                 <p>Хоспер</p>
                             </figure>
-                             <!-- === -->
-                             <figure>
+                            <!-- === -->
+                            <figure>
                                 <img src="./images/Ellipse 4.png" alt="logo">
                                 <p>Супи</p>
                             </figure>
@@ -217,7 +241,7 @@
                                 <p>Напoї</p>
                             </figure>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -257,7 +281,7 @@
                 </div>
             </div>
         </div>
-       
+
     </footer>
 </body>
 
