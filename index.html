@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9902371480/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9902371480/UntitledProject/style.css">
 </head>
 
 <body>
@@ -18,6 +18,11 @@
             </div>
             <div>
                 <nav>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <ul class="menu flex">
                         <li>
                             <a href="#">Головна</a>
@@ -78,7 +83,7 @@
     <main>
         <section class="section1">
             <div class="container">
-                <div class="sec1-wrap flex">
+                <div class="sec1-wrap">
                     <div class="text">
                         <h1>
                             Ресторан гастрономічних подорожей
@@ -88,6 +93,9 @@
                             Івано-Франківську - устриці, булоти, восьминоги, креветки та мідії, а також спеціально
                             підібрані сорти вин та шампанського.
                         </p>
+                        <div class="photo flex">
+                            <img src="./images/картинка_.png" alt="logo" width='400px' height="400px">
+                        </div>
                         <button onclick="document.getElementById('myModal').style.display='block'" class="button"><a
                                 href="#" class="btn">Забронювати</a></button>
                         <div class="modal" id="myModal">
@@ -103,10 +111,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="photo">
-                        <img src="./images/картинка_.png" alt="logo" width="full" height="530px">
-                        <img src="./images/лимон.png" alt="logo">
-                    </div>
                 </div>
             </div>
         </section>
@@ -114,16 +118,22 @@
             <div class="container">
                 <div class="images2 flex">
                     <figure>
-                        <img src="./images/Rectangle 7 (1).png" alt="logo" width="400px">
-                        <p>Авторські страви</p>
+                        <div>
+                            <img src="./images/Rectangle 7 (1).png" alt="logo" width="400px">
+                            <p>Авторські страви</p>
+                        </div>
                     </figure>
                     <figure>
-                        <img src="./images/Rectangle 8 (1).png" alt="logo" width="400px">
-                        <p>Фірмові напої</p>
+                        <div>
+                            <img src="./images/Rectangle 8 (1).png" alt="logo" width="400px">
+                            <p>Фірмові напої</p>
+                        </div>                     
                     </figure>
                     <figure>
-                        <img src="./images/Rectangle 9 (1).png" alt="logo" width="400px">
-                        <p>Свіжі морепродукти</p>
+                        <div>
+                            <img src="./images/Rectangle 9 (1).png" alt="logo" width="400px">
+                            <p>Свіжі морепродукти</p>
+                        </div>                      
                     </figure>
                 </div>
             </div>
@@ -159,7 +169,9 @@
         </section>
         <section class="section4">
             <div class="container">
-                <h2>Суперпропозиції</h2>
+                <div class="sec4-h2">
+                    <h2>Суперпропозиції</h2>
+                </div>
                 <div class="sec4-wrap flex">
                     <div class="sec4-wrap-children">
                         <p>Фудбокси</p>
@@ -245,7 +257,7 @@
         <section>
             <div class="container">
                 <div class="section7-wrap flex">
-                    <img src="./images/Rectangle 27.png" alt="logo" class="sec7-img">
+                    <img src="./images/Rectangle 27.png" alt="logo" class="sec7-img" width="500px" height="600px">
                     <div class="sec7">
                         <h3>Ресторан вашої мрії</h3>
                         <p>Вишукана кухня та досвідчені кухарі, подарують вам неймовірні враження від перебування у
@@ -258,8 +270,8 @@
                             </figure>
                             <!-- ==== -->
                             <figure>
-                                <img src="./images/Ellipse 2.png" alt="logo">
-                                <p>Устриці</p>
+                                    <img src="./images/Ellipse 2.png" alt="logo">
+                                    <p>Устриці</p>
                             </figure>
                             <!-- === -->
                             <figure>
@@ -324,6 +336,7 @@
         </div>
 
     </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>
